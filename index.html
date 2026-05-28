@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gantt Planner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Gantt Planner</h1>
+          <p id="dateRangeLabel"></p>
+        </div>
+        <div class="toolbar" aria-label="Planner controls">
+          <button id="addGroupBtn" class="primary">+ Group</button>
+          <button id="addTaskBtn">+ Task</button>
+          <button id="addMilestoneBtn">+ Milestone</button>
+          <div class="segmented" aria-label="Timeline zoom">
+            <button data-zoom="day">Day</button>
+            <button data-zoom="week" class="active">Week</button>
+            <button data-zoom="month">Month</button>
+            <button data-zoom="year">Year</button>
+          </div>
+          <button id="exportBtn" title="Download your planner data">Export</button>
+          <label class="import-btn" title="Import planner data">
+            Import
+            <input id="importInput" type="file" accept="application/json">
+          </label>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="gantt" aria-label="Editable Gantt chart">
+          <div class="grid-head task-head">Work</div>
+          <div id="timelineHead" class="grid-head timeline-head"></div>
+          <div id="taskList" class="task-list"></div>
+          <div id="timeline" class="timeline"></div>
+        </section>
+
+        <aside class="inspector" aria-label="Selected item editor">
+          <div class="empty-state" id="emptyInspector">
+            <h2>Select an item</h2>
+            <p>Edit names, dates, owners, tags, colors, and group placement.</p>
+          </div>
+
+          <form id="editorForm" class="editor hidden">
+            <div class="editor-title">
+              <h2 id="editorHeading">Task</h2>
+              <button id="deleteBtn" type="button" class="danger">Delete</button>
+            </div>
+
+            <label>
+              Name
+              <input id="nameInput" type="text" required>
+            </label>
+
+            <label id="groupField">
+              Group
+              <select id="groupSelect"></select>
+            </label>
+
+            <div class="date-grid">
+              <label>
+                Start
+                <input id="startInput" type="date">
+              </label>
+              <label id="endField">
+                End
+                <input id="endInput" type="date">
+              </label>
+            </div>
+
+            <label id="ownerField">
+              Responsible
+              <input id="ownerInput" type="text" placeholder="Name or team">
+            </label>
+
+            <label id="tagsField">
+              Tags
+              <input id="tagsInput" type="text" placeholder="design, blocked, client">
+            </label>
+
+            <label id="dependencyField">
+              Depends on
+              <select id="dependencySelect"></select>
+            </label>
+
+            <label id="progressField">
+              % Complete
+              <div class="progress-row">
+                <input id="progressRange" type="range" min="0" max="100" step="5">
+                <input id="progressInput" type="number" min="0" max="100" step="1">
+              </div>
+            </label>
+
+            <label id="colorField">
+              Color
+              <div class="color-row">
+                <input id="colorInput" type="color">
+                <div id="colorSwatches" class="swatches"></div>
+              </div>
+            </label>
+
+            <label id="commentsField">
+              Comments
+              <textarea id="commentsInput" rows="5" placeholder="Notes, blockers, decisions"></textarea>
+            </label>
+
+            <div id="attachmentsField" class="attachments-field">
+              <label>
+                Files
+                <input id="attachmentInput" type="file" multiple>
+              </label>
+              <div id="attachmentList" class="attachment-list"></div>
+            </div>
+          </form>
+        </aside>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
