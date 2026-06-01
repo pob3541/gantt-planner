@@ -1,4 +1,5 @@
 const STORAGE_KEY = "editable-gantt-planner-v1";
+const DATA_FILE = "data.json";
 const DAY_MS = 24 * 60 * 60 * 1000;
 const MAX_ATTACHMENT_SIZE = 2 * 1024 * 1024;
 const palette = ["#0073ea", "#00a878", "#fdab3d", "#e2445c", "#784bd1", "#579bfc", "#333333", "#9d50dd"];
@@ -15,8 +16,8 @@ const rangePadding = {
   year: { before: 180, after: 730 }
 };
 
-let state = loadState();
-let selected = state.groups[0] ? { type: "group", id: state.groups[0].id } : null;
+let state = null;
+let selected = null;
 let dragState = null;
 let rowDrag = null;
 let createDrag = null;
@@ -65,7 +66,7 @@ const elements = {
   attachmentList: document.querySelector("#attachmentList")
 };
 
-function loadState() {
+async function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) {
     try {
@@ -75,6 +76,23 @@ function loadState() {
     }
   }
 
+  const sharedState = await loadSharedState();
+  if (sharedState) return sharedState;
+
+  return getDefaultState();
+}
+
+async function loadSharedState() {
+  try {
+    const response = await fetch(DATA_FILE, { cache: "no-store" });
+    if (!response.ok) return null;
+    return normalizeState(await response.json());
+  } catch {
+    return null;
+  }
+}
+
+function getDefaultState() {
   return normalizeState({
     zoom: "week",
     groups: [
@@ -1377,7 +1395,7 @@ function exportData() {
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
-  link.download = "gantt-planner.json";
+  link.download = DATA_FILE;
   link.click();
   URL.revokeObjectURL(link.href);
 }
@@ -1397,36 +1415,43 @@ function importData(file) {
   reader.readAsText(file);
 }
 
-elements.addGroupBtn.addEventListener("click", addGroup);
-elements.addTaskBtn.addEventListener("click", () => addItem("task"));
-elements.addMilestoneBtn.addEventListener("click", () => addItem("milestone"));
-elements.deleteBtn.addEventListener("click", deleteSelected);
-elements.exportBtn.addEventListener("click", exportData);
-elements.importInput.addEventListener("change", (event) => importData(event.target.files[0]));
-document.querySelectorAll("[data-zoom]").forEach((button) => {
-  button.addEventListener("click", () => {
-    state.zoom = button.dataset.zoom;
-    document.querySelectorAll("[data-zoom]").forEach((zoomButton) => zoomButton.classList.toggle("active", zoomButton.dataset.zoom === state.zoom));
-    render();
+async function initializeApp() {
+  state = await loadState();
+  selected = state.groups[0] ? { type: "group", id: state.groups[0].id } : null;
+
+  elements.addGroupBtn.addEventListener("click", addGroup);
+  elements.addTaskBtn.addEventListener("click", () => addItem("task"));
+  elements.addMilestoneBtn.addEventListener("click", () => addItem("milestone"));
+  elements.deleteBtn.addEventListener("click", deleteSelected);
+  elements.exportBtn.addEventListener("click", exportData);
+  elements.importInput.addEventListener("change", (event) => importData(event.target.files[0]));
+  document.querySelectorAll("[data-zoom]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.zoom = button.dataset.zoom;
+      document.querySelectorAll("[data-zoom]").forEach((zoomButton) => zoomButton.classList.toggle("active", zoomButton.dataset.zoom === state.zoom));
+      render();
+    });
   });
-});
 
-elements.progressRange.addEventListener("input", () => {
-  elements.progressInput.value = elements.progressRange.value;
-});
+  elements.progressRange.addEventListener("input", () => {
+    elements.progressInput.value = elements.progressRange.value;
+  });
 
-elements.progressInput.addEventListener("input", () => {
-  elements.progressRange.value = clampProgress(elements.progressInput.value);
-});
+  elements.progressInput.addEventListener("input", () => {
+    elements.progressRange.value = clampProgress(elements.progressInput.value);
+  });
 
-elements.editorForm.addEventListener("change", updateSelectedFromForm);
-elements.attachmentInput.addEventListener("change", (event) => handleAttachmentUpload(event.target.files));
+  elements.editorForm.addEventListener("change", updateSelectedFromForm);
+  elements.attachmentInput.addEventListener("change", (event) => handleAttachmentUpload(event.target.files));
 
-window.addEventListener("pointermove", handlePointerMove);
-window.addEventListener("pointerup", handlePointerUp);
+  window.addEventListener("pointermove", handlePointerMove);
+  window.addEventListener("pointerup", handlePointerUp);
 
-document.querySelectorAll("[data-zoom]").forEach((button) => {
-  button.classList.toggle("active", button.dataset.zoom === state.zoom);
-});
+  document.querySelectorAll("[data-zoom]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.zoom === state.zoom);
+  });
 
-render();
+  render();
+}
+
+initializeApp();

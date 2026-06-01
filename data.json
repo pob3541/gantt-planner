@@ -1,0 +1,1010 @@
+{
+  "zoom": "year",
+  "tagColors": {
+    "class": "#0073ea",
+    "rotation": "#00a878",
+    "fellowship": "#fdab3d",
+    "quals": "#e2445c",
+    "experiment": "#784bd1",
+    "manuscript": "#579bfc",
+    "dissertation": "#333333",
+    "dac": "#333333",
+    "conference": "#00e1ff"
+  },
+  "groups": [
+    {
+      "id": "64eab7e1-aaf9-4352-b4c7-4628308c8e5d",
+      "name": "Fall 2025 Semester",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "3f4b5b0b-60ac-4256-83fe-036738b8adc6",
+          "type": "task",
+          "name": "Neurobiology I",
+          "start": "2025-09-02",
+          "end": "2025-12-11",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "c0c6c7cf-e021-4016-8bc4-0f1fd0515612",
+          "type": "task",
+          "name": "Frontiers of Neuroscience",
+          "start": "2025-09-02",
+          "end": "2025-12-11",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "165774a4-1e39-46e4-9ac1-296dcb7ec618",
+          "type": "task",
+          "name": "Math Neuro 1",
+          "start": "2025-09-02",
+          "end": "2025-10-14",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "90d7463d-2c36-49a6-ae91-a9c14dd51da2",
+          "type": "task",
+          "name": "Math Neuro 2",
+          "start": "2025-10-15",
+          "end": "2025-12-11",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "9a6e1124-8277-4ec0-94a5-8f3ad7b96ebc",
+          "type": "task",
+          "name": "Chand lab rotation",
+          "start": "2025-09-02",
+          "end": "2025-12-11",
+          "color": "#00a878",
+          "owner": "PB",
+          "tags": [
+            "Rotation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        }
+      ]
+    },
+    {
+      "id": "4cb76c7a-a856-40f2-a302-9d34896531d7",
+      "name": "Spring 2026 Semester",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "514eebd7-c917-4f4a-b14c-9efc50a3780a",
+          "type": "task",
+          "name": "Frontiers of neuroscience 2",
+          "start": "2026-01-20",
+          "end": "2026-05-07",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "2e424a9a-adba-44d5-babe-56121e1fcfc3",
+          "type": "task",
+          "name": "CAS NE 742",
+          "start": "2026-01-20",
+          "end": "2026-05-07",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "7021c634-7f99-419b-8032-ac73da2cdb03",
+          "type": "task",
+          "name": "CAS NE 741",
+          "start": "2026-01-20",
+          "end": "2026-05-07",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "9ec00d19-680e-434f-8b61-037cb6bce38c",
+          "type": "task",
+          "name": "Zeldich lab rotation",
+          "start": "2026-01-05",
+          "end": "2026-02-20",
+          "color": "#00a878",
+          "owner": "PB",
+          "tags": [
+            "Rotation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "ba6a9d10-a385-4605-9396-587f8ef8a55c",
+          "type": "task",
+          "name": "Luebke lab rotation",
+          "start": "2026-02-23",
+          "end": "2026-04-10",
+          "color": "#00a878",
+          "owner": "PB",
+          "tags": [
+            "Rotation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        }
+      ]
+    },
+    {
+      "id": "898cdc2a-44d4-4eb9-aecb-3f7e67acc7a2",
+      "name": "NRSA application",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "8986015a-92ef-40b3-86ef-070ec6127218",
+          "type": "task",
+          "name": "Continue writing research strategy",
+          "start": "2026-05-27",
+          "end": "2026-08-08",
+          "color": "#fdab3d",
+          "owner": "PB",
+          "tags": [
+            "Fellowship"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 25
+        },
+        {
+          "id": "34d590e6-9865-4c7b-8e0a-749a73e46b07",
+          "type": "task",
+          "name": "Other parts of F31",
+          "start": "2026-06-26",
+          "end": "2026-07-15",
+          "color": "#fdab3d",
+          "owner": "PB",
+          "tags": [
+            "Fellowship"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "38942c74-4630-46dd-b61d-0a9c7c1ed4c5",
+          "type": "task",
+          "name": "Internal submission of NRSA",
+          "start": "2026-07-24",
+          "end": "2026-08-01",
+          "color": "#fdab3d",
+          "owner": "PB",
+          "tags": [
+            "Fellowship"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "ed16e880-ee96-4ef1-b848-a96d948d8317",
+          "type": "task",
+          "name": "Submit NRSA application",
+          "start": "2026-08-01",
+          "end": "2026-08-10",
+          "color": "#fdab3d",
+          "owner": "PB",
+          "tags": [
+            "Fellowship"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "2c6fe153-061f-4e42-bb02-36dcf720d499",
+      "name": "Qualifying exam",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "b17ae3fb-78e1-4103-885a-5fe05b658899",
+          "type": "task",
+          "name": "Prep written quals",
+          "start": "2026-05-27",
+          "end": "2026-07-20",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "3da31622-e7a1-4d0e-9b1d-d8cb077171f3",
+          "type": "task",
+          "name": "Form quals committee",
+          "start": "2026-05-27",
+          "end": "2026-06-27",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "8dd0aff3-62ff-4437-b694-34e57538c80c",
+          "type": "milestone",
+          "name": "Shelly to approve quals committee",
+          "start": "2026-06-27",
+          "end": "2026-06-27",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "5aee69bc-7f6a-4426-80e1-1312610dea47",
+          "type": "milestone",
+          "name": "Send out written exam",
+          "start": "2026-07-17",
+          "end": "2026-07-17",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "be5e64ac-63c5-4f19-9a77-a61c151095ac",
+          "type": "milestone",
+          "name": "Oral qualifying exam",
+          "start": "2026-07-31",
+          "end": "2026-07-31",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "6232296c-0ad3-415c-9591-a4eb537b21a6",
+      "name": "Training Arya",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "f38b3a0d-9339-431f-8d1c-d2c3ce4ec307",
+          "type": "task",
+          "name": "Get Arya in/out cage solo",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 75
+        },
+        {
+          "id": "1968f16f-1270-4843-8ada-993deded07e9",
+          "type": "task",
+          "name": "Headpost Arya",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 75
+        },
+        {
+          "id": "5abacd71-4832-4e95-8eec-34c3e9a23e14",
+          "type": "task",
+          "name": "Train Arya to touch screen",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "7ee7a8c5-63fb-4ba5-89f0-e30d0ef80fa0",
+          "type": "task",
+          "name": "Prepare motor reaching task",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "733ada69-eb29-49c8-a1dc-8c26a41e88bf",
+          "type": "task",
+          "name": "Train Arya on motor reaching task",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
+          "type": "task",
+          "name": "Burr hole surgery",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "3e8eb76e-3128-4fe8-a177-4a76760ed3ac",
+          "type": "task",
+          "name": "Neural recordings with Arya",
+          "start": "2026-05-27",
+          "end": "2027-02-08",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "4fa84213-d91c-4349-b2e8-75149c56efd3",
+      "name": "Opto manuscript",
+      "collapsed": false,
+      "items": [
+        {
+          "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
+          "type": "task",
+          "name": "Submit for prepublication",
+          "start": "2026-05-27",
+          "end": "2026-07-09",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "6f6f438e-21a7-44b5-aff8-2d7882774c3d",
+          "type": "task",
+          "name": "Submit for publication",
+          "start": "2026-05-27",
+          "end": "2026-10-12",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "ba69b9ad-c800-4268-bfd7-f2dee4041033",
+          "type": "task",
+          "name": "Prep SFN abstract",
+          "start": "2026-05-29",
+          "end": "2026-06-10",
+          "color": "#00e1ff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "00b47cfc-5ecf-4c7e-8fb2-c8dfa2f6ea7b",
+          "type": "milestone",
+          "name": "Submit SFN abstract",
+          "start": "2026-06-10",
+          "end": "2026-06-10",
+          "color": "#00eeff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "8164ab47-9864-4e7b-b2fe-d9ce84d03a73",
+      "name": "Liz manuscript",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "35977145-1d45-4254-8b99-1dab828d5292",
+          "type": "task",
+          "name": "PB data analysis",
+          "start": "2026-05-27",
+          "end": "2026-08-28",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "d26c1a78-2b08-455e-a45b-3abbd4381111",
+          "type": "task",
+          "name": "Help Maya analysis",
+          "start": "2026-05-27",
+          "end": "2026-08-29",
+          "color": "#579bfc",
+          "owner": "",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "029e822b-1a34-4758-bd1a-b34279ac8e9e",
+      "name": "Fall 2026 semester",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "e6570984-5dba-459d-9b97-4408123d7275",
+          "type": "task",
+          "name": "ENG EC 516/ ENG BE 562 (Elective)",
+          "start": "2026-09-02",
+          "end": "2026-12-18",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "046cacd6-82a6-47c4-a81b-71a353b2890d",
+          "type": "task",
+          "name": "TA matlab coding",
+          "start": "2026-09-02",
+          "end": "2026-12-18",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "d86baea9-0370-4417-87bb-cb1938577068",
+          "type": "task",
+          "name": "Put together dissertation advisory council (DAC))",
+          "start": "2026-09-16",
+          "end": "2026-10-16",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "https://www.bu.edu/neuro/academics/graduate/program-milestones/dissertation-advisory-committee-and-thesis-defense/",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "7c3f7975-6e7f-475b-b452-5bbf52d1dec6",
+          "type": "milestone",
+          "name": "Shelly to approve DAC",
+          "start": "2026-10-22",
+          "end": "2026-10-22",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "4ba74374-86d5-4a48-8e79-ff6eadf572e9",
+          "type": "milestone",
+          "name": "DAC meeting 1",
+          "start": "2026-12-01",
+          "end": "2026-12-01",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "5de7934b-54fe-41fc-a7b6-4e795872f6ce",
+          "type": "task",
+          "name": "Prep cosyne abstract",
+          "start": "2026-09-16",
+          "end": "2026-10-16",
+          "color": "#00fbff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "5fc58054-e981-4833-b176-823ab561e9ff",
+          "type": "milestone",
+          "name": "Cosyne abstract due",
+          "start": "2026-10-16",
+          "end": "2026-10-16",
+          "color": "#00e1ff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "b173c3c7-7e8c-49d5-9356-c262c41fbc2a",
+          "type": "task",
+          "name": "Prep NCM abstract",
+          "start": "2026-11-01",
+          "end": "2026-12-01",
+          "color": "#00e1ff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "22938282-e48b-4b8d-8b16-6192ca308651",
+          "type": "milestone",
+          "name": "NCM abstract deadline",
+          "start": "2026-12-01",
+          "end": "2026-12-01",
+          "color": "#00d5ff",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "587de635-2e94-4f96-a3b1-c32d40015ee3",
+      "name": "Spring 2027",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
+          "type": "task",
+          "name": "Elective 2?",
+          "start": "2027-01-20",
+          "end": "2027-05-08",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "33d92a22-315b-4387-980e-f9e9d2babe57",
+          "type": "milestone",
+          "name": "DAC meeting 2",
+          "start": "2027-03-17",
+          "end": "2027-03-17",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "3daa5a2c-9d4d-4ee4-a66b-672347afd9f3",
+      "name": "Dissertation committee",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "d60d550e-8bad-436e-8b6d-90cd25d9619e",
+          "type": "task",
+          "name": "Formal progress report prep",
+          "start": "2027-01-20",
+          "end": "2027-07-22",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "https://www.bu.edu/neuro/academics/graduate/program-milestones/dissertation-advisory-committee-and-thesis-defense/",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "68e38bd5-e635-4695-9c86-bdd994328de1",
+          "type": "milestone",
+          "name": "Progress report presentation",
+          "start": "2027-08-11",
+          "end": "2027-08-11",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "d60d550e-8bad-436e-8b6d-90cd25d9619e",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "c6d3316c-f552-47ac-939d-33aa76688342",
+          "type": "milestone",
+          "name": "Dissertation outline/prospectus",
+          "start": "2027-11-12",
+          "end": "2027-11-12",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "001707b8-0089-482a-834b-574632eb03dd",
+          "type": "milestone",
+          "name": "GMS PhD diploma application",
+          "start": "2028-03-24",
+          "end": "2028-03-24",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "79111960-affd-4d3f-82c5-c91a2b4d3a1f",
+          "type": "milestone",
+          "name": "Schedule PhD Oral defense",
+          "start": "2028-06-26",
+          "end": "2028-06-26",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "325f0adf-cc96-46b0-bd84-223d0348c60b",
+          "type": "milestone",
+          "name": "Committee to review the thesis",
+          "start": "2028-06-26",
+          "end": "2028-06-26",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "1d0d60c5-72bc-49e8-9d59-5abe9b03bc9c",
+          "type": "milestone",
+          "name": "Meet with GMS registrar",
+          "start": "2028-07-05",
+          "end": "2028-07-05",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "a42dc52c-0310-422f-9c29-272f58517506",
+          "type": "milestone",
+          "name": "Dissertation abstract",
+          "start": "2028-07-11",
+          "end": "2028-07-11",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "ec9df513-614e-4db4-b2cb-84c7e1bf12e9",
+          "type": "milestone",
+          "name": "Pre-defense meeting",
+          "start": "2028-07-27",
+          "end": "2028-07-27",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "a42dc52c-0310-422f-9c29-272f58517506",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "e1e38273-7ac0-4c59-8e8d-9c03bea31cb3",
+          "type": "milestone",
+          "name": "PhD oral defense",
+          "start": "2028-08-10",
+          "end": "2028-08-10",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "ec9df513-614e-4db4-b2cb-84c7e1bf12e9",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "fa8a5936-e761-4c31-9f3d-4ca6a741bcea",
+          "type": "milestone",
+          "name": "Submit PhD thesis",
+          "start": "2028-09-01",
+          "end": "2028-09-01",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "Dissertation"
+          ],
+          "dependsOn": "e1e38273-7ac0-4c59-8e8d-9c03bea31cb3",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "37855e5c-79bb-4fbd-88af-c696839d35e9",
+      "name": "Fall 2027",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "0c6de5b0-640d-44dc-8ee8-af7a16d2104c",
+          "type": "task",
+          "name": "Elective 2?",
+          "start": "2027-09-02",
+          "end": "2027-12-09",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "e747ee9a-b984-4f72-b6a3-afc2fbacd4e1",
+          "type": "milestone",
+          "name": "DAC Meeting 3",
+          "start": "2027-11-10",
+          "end": "2027-11-10",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "fee03292-5871-41a7-af43-99047438aae7",
+      "name": "Spring 2028",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "6a92fcf6-7f0f-46bf-8096-9bc5a3862028",
+          "type": "milestone",
+          "name": "DAC meeting 4",
+          "start": "2028-03-15",
+          "end": "2028-03-15",
+          "color": "#333333",
+          "owner": "PB",
+          "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    }
+  ]
+}
