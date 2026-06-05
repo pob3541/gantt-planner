@@ -352,7 +352,7 @@
           "type": "task",
           "name": "Get Arya in/out cage solo",
           "start": "2026-05-27",
-          "end": "2026-07-11",
+          "end": "2026-07-01",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -361,14 +361,14 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 75
+          "progress": 85
         },
         {
           "id": "1968f16f-1270-4843-8ada-993deded07e9",
           "type": "task",
           "name": "Headpost Arya",
           "start": "2026-05-27",
-          "end": "2026-07-11",
+          "end": "2026-07-01",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -377,7 +377,39 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 75
+          "progress": 85
+        },
+        {
+          "id": "7f04fd04-3f8a-42c5-8c18-09c882a9bb44",
+          "type": "task",
+          "name": "Visor training and taking juice",
+          "start": "2026-06-03",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 50
+        },
+        {
+          "id": "eabdda62-f7c3-4397-89ef-4ad98f3e806f",
+          "type": "task",
+          "name": "Arm restraint training",
+          "start": "2026-06-04",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 25
         },
         {
           "id": "5abacd71-4832-4e95-8eec-34c3e9a23e14",
@@ -399,8 +431,8 @@
           "id": "7ee7a8c5-63fb-4ba5-89f0-e30d0ef80fa0",
           "type": "task",
           "name": "Prepare motor reaching task",
-          "start": "2026-05-27",
-          "end": "2026-07-11",
+          "start": "2026-06-01",
+          "end": "2026-06-11",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -409,7 +441,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
+          "progress": 100
         },
         {
           "id": "733ada69-eb29-49c8-a1dc-8c26a41e88bf",
@@ -462,9 +494,30 @@
       ]
     },
     {
+      "id": "29b5f099-bc31-423c-87ff-003ecea6704a",
+      "name": "NPT Program",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "3fd3c62c-46c1-485f-bc05-4af614e6aa4e",
+          "type": "task",
+          "name": "NPT Boot camp",
+          "start": "2026-06-30",
+          "end": "2026-07-02",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
       "id": "4fa84213-d91c-4349-b2e8-75149c56efd3",
       "name": "Opto manuscript",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         {
           "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
@@ -520,7 +573,7 @@
           "name": "Submit SFN abstract",
           "start": "2026-06-10",
           "end": "2026-06-10",
-          "color": "#00eeff",
+          "color": "#00e1ff",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -662,7 +715,7 @@
           "name": "Prep cosyne abstract",
           "start": "2026-09-16",
           "end": "2026-10-16",
-          "color": "#00fbff",
+          "color": "#00e1ff",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -710,7 +763,7 @@
           "name": "NCM abstract deadline",
           "start": "2026-12-01",
           "end": "2026-12-01",
-          "color": "#00d5ff",
+          "color": "#00e1ff",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -725,7 +778,7 @@
     {
       "id": "587de635-2e94-4f96-a3b1-c32d40015ee3",
       "name": "Spring 2027",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
@@ -752,6 +805,23 @@
           "color": "#333333",
           "owner": "PB",
           "tags": [
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "05ddfa46-b3f4-46fe-9f26-d4fd95bd12e5",
+          "type": "milestone",
+          "name": "Look into GRC optogenetics conference",
+          "start": "2027-01-20",
+          "end": "2027-01-20",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class",
             "DAC"
           ],
           "dependsOn": "",
