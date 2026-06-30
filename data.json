@@ -185,6 +185,426 @@
       ]
     },
     {
+      "id": "6232296c-0ad3-415c-9591-a4eb537b21a6",
+      "name": "Training Arya",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "f38b3a0d-9339-431f-8d1c-d2c3ce4ec307",
+          "type": "task",
+          "name": "Get Arya in/out cage solo",
+          "start": "2026-05-27",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "1968f16f-1270-4843-8ada-993deded07e9",
+          "type": "task",
+          "name": "Headpost Arya",
+          "start": "2026-05-27",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "7f04fd04-3f8a-42c5-8c18-09c882a9bb44",
+          "type": "task",
+          "name": "Visor training and taking juice",
+          "start": "2026-06-03",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "eabdda62-f7c3-4397-89ef-4ad98f3e806f",
+          "type": "task",
+          "name": "Arm restraint training",
+          "start": "2026-06-04",
+          "end": "2026-07-01",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "5abacd71-4832-4e95-8eec-34c3e9a23e14",
+          "type": "task",
+          "name": "Train Arya to touch screen",
+          "start": "2026-05-27",
+          "end": "2026-07-11",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "7ee7a8c5-63fb-4ba5-89f0-e30d0ef80fa0",
+          "type": "task",
+          "name": "Prepare motor reaching task",
+          "start": "2026-06-01",
+          "end": "2026-06-03",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "733ada69-eb29-49c8-a1dc-8c26a41e88bf",
+          "type": "task",
+          "name": "Train Arya on CenterOurReach",
+          "start": "2026-06-01",
+          "end": "2026-06-25",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 100
+        },
+        {
+          "id": "4b92f7fb-ae0a-472a-9546-e76067f33c8d",
+          "type": "task",
+          "name": "Train Arya on DelayedReach",
+          "start": "2026-06-26",
+          "end": "2026-07-16",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 25
+        },
+        {
+          "id": "43400afb-4d10-4212-a739-2d5f32799868",
+          "type": "task",
+          "name": "Train Arya on Checkerboard first",
+          "start": "2026-07-15",
+          "end": "2026-08-08",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
+          "type": "task",
+          "name": "Burr hole surgery",
+          "start": "2026-08-01",
+          "end": "2026-08-16",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "29b5f099-bc31-423c-87ff-003ecea6704a",
+      "name": "NPT Program",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "3fd3c62c-46c1-485f-bc05-4af614e6aa4e",
+          "type": "task",
+          "name": "NPT Boot camp",
+          "start": "2026-06-30",
+          "end": "2026-07-02",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 35
+        },
+        {
+          "id": "2cd38080-650c-4a3d-8732-fd921128393f",
+          "type": "task",
+          "name": "Get a co-mentor who can cowrite rec letter",
+          "start": "2026-06-30",
+          "end": "2026-11-13",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "75dfb2ff-67e8-432f-a813-22fd08e9971d",
+          "type": "task",
+          "name": "Apply for NPT fellowship",
+          "start": "2027-04-01",
+          "end": "2027-04-29",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "https://www.bu.edu/neurophotonics/ntp/applications/\n\nName, graduate year, program, and any training fellowships you have received\n\nA ≤250 word statement\n\nPlease ask your mentors to prepare one single co-signed letter of recommendation for the fellowship and to email to neuropho@bu.edu .\n\nA copy of your unofficial transcript (uploaded on application form).\n\nA copy of your resume (uploaded on application form).",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "4fa84213-d91c-4349-b2e8-75149c56efd3",
+      "name": "Opto manuscript",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "233ce3d7-e7e3-4822-9aec-8ac993d2c0e3",
+          "type": "task",
+          "name": "Submit to coauthors",
+          "start": "2026-07-01",
+          "end": "2026-07-24",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 20
+        },
+        {
+          "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
+          "type": "task",
+          "name": "Submit for prepublication",
+          "start": "2026-07-25",
+          "end": "2026-08-20",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "6f6f438e-21a7-44b5-aff8-2d7882774c3d",
+          "type": "task",
+          "name": "Submit for publication",
+          "start": "2026-08-23",
+          "end": "2026-09-18",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "8164ab47-9864-4e7b-b2fe-d9ce84d03a73",
+      "name": "Liz manuscript",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "35977145-1d45-4254-8b99-1dab828d5292",
+          "type": "task",
+          "name": "PB data analysis",
+          "start": "2026-05-27",
+          "end": "2026-08-28",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 50
+        },
+        {
+          "id": "d26c1a78-2b08-455e-a45b-3abbd4381111",
+          "type": "task",
+          "name": "Help Maya analysis",
+          "start": "2026-05-27",
+          "end": "2026-08-29",
+          "color": "#579bfc",
+          "owner": "",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 25
+        }
+      ]
+    },
+    {
+      "id": "a2c6946f-834d-4d0a-9baf-eb92fc51d6b3",
+      "name": "Experimental sessions",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "3e8eb76e-3128-4fe8-a177-4a76760ed3ac",
+          "type": "task",
+          "name": "Neural recordings with Arya",
+          "start": "2026-08-12",
+          "end": "2027-01-30",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "2c6fe153-061f-4e42-bb02-36dcf720d499",
+      "name": "Qualifying exam",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "b17ae3fb-78e1-4103-885a-5fe05b658899",
+          "type": "task",
+          "name": "Prep written quals",
+          "start": "2026-05-27",
+          "end": "2026-07-20",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "3da31622-e7a1-4d0e-9b1d-d8cb077171f3",
+          "type": "task",
+          "name": "Form quals committee",
+          "start": "2026-05-27",
+          "end": "2026-06-27",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "Committee people ideas: Jarrett Rushmore; Mark Howe",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "8dd0aff3-62ff-4437-b694-34e57538c80c",
+          "type": "milestone",
+          "name": "Shelly to approve quals committee",
+          "start": "2026-06-27",
+          "end": "2026-06-27",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "5aee69bc-7f6a-4426-80e1-1312610dea47",
+          "type": "milestone",
+          "name": "Send out written exam",
+          "start": "2026-07-17",
+          "end": "2026-07-17",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "be5e64ac-63c5-4f19-9a77-a61c151095ac",
+          "type": "milestone",
+          "name": "Oral qualifying exam",
+          "start": "2026-07-31",
+          "end": "2026-07-31",
+          "color": "#e2445c",
+          "owner": "PB",
+          "tags": [
+            "Quals"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
       "id": "898cdc2a-44d4-4eb9-aecb-3f7e67acc7a2",
       "name": "NRSA application",
       "collapsed": true,
@@ -247,375 +667,6 @@
           "owner": "PB",
           "tags": [
             "Fellowship"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        }
-      ]
-    },
-    {
-      "id": "2c6fe153-061f-4e42-bb02-36dcf720d499",
-      "name": "Qualifying exam",
-      "collapsed": true,
-      "items": [
-        {
-          "id": "b17ae3fb-78e1-4103-885a-5fe05b658899",
-          "type": "task",
-          "name": "Prep written quals",
-          "start": "2026-05-27",
-          "end": "2026-07-20",
-          "color": "#e2445c",
-          "owner": "PB",
-          "tags": [
-            "Quals"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "3da31622-e7a1-4d0e-9b1d-d8cb077171f3",
-          "type": "task",
-          "name": "Form quals committee",
-          "start": "2026-05-27",
-          "end": "2026-06-27",
-          "color": "#e2445c",
-          "owner": "PB",
-          "tags": [
-            "Quals"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "8dd0aff3-62ff-4437-b694-34e57538c80c",
-          "type": "milestone",
-          "name": "Shelly to approve quals committee",
-          "start": "2026-06-27",
-          "end": "2026-06-27",
-          "color": "#e2445c",
-          "owner": "PB",
-          "tags": [
-            "Quals"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "5aee69bc-7f6a-4426-80e1-1312610dea47",
-          "type": "milestone",
-          "name": "Send out written exam",
-          "start": "2026-07-17",
-          "end": "2026-07-17",
-          "color": "#e2445c",
-          "owner": "PB",
-          "tags": [
-            "Quals"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "be5e64ac-63c5-4f19-9a77-a61c151095ac",
-          "type": "milestone",
-          "name": "Oral qualifying exam",
-          "start": "2026-07-31",
-          "end": "2026-07-31",
-          "color": "#e2445c",
-          "owner": "PB",
-          "tags": [
-            "Quals"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        }
-      ]
-    },
-    {
-      "id": "6232296c-0ad3-415c-9591-a4eb537b21a6",
-      "name": "Training Arya",
-      "collapsed": true,
-      "items": [
-        {
-          "id": "f38b3a0d-9339-431f-8d1c-d2c3ce4ec307",
-          "type": "task",
-          "name": "Get Arya in/out cage solo",
-          "start": "2026-05-27",
-          "end": "2026-07-01",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 85
-        },
-        {
-          "id": "1968f16f-1270-4843-8ada-993deded07e9",
-          "type": "task",
-          "name": "Headpost Arya",
-          "start": "2026-05-27",
-          "end": "2026-07-01",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 85
-        },
-        {
-          "id": "7f04fd04-3f8a-42c5-8c18-09c882a9bb44",
-          "type": "task",
-          "name": "Visor training and taking juice",
-          "start": "2026-06-03",
-          "end": "2026-07-01",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 50
-        },
-        {
-          "id": "eabdda62-f7c3-4397-89ef-4ad98f3e806f",
-          "type": "task",
-          "name": "Arm restraint training",
-          "start": "2026-06-04",
-          "end": "2026-07-01",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 25
-        },
-        {
-          "id": "5abacd71-4832-4e95-8eec-34c3e9a23e14",
-          "type": "task",
-          "name": "Train Arya to touch screen",
-          "start": "2026-05-27",
-          "end": "2026-07-11",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "7ee7a8c5-63fb-4ba5-89f0-e30d0ef80fa0",
-          "type": "task",
-          "name": "Prepare motor reaching task",
-          "start": "2026-06-01",
-          "end": "2026-06-11",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 100
-        },
-        {
-          "id": "733ada69-eb29-49c8-a1dc-8c26a41e88bf",
-          "type": "task",
-          "name": "Train Arya on motor reaching task",
-          "start": "2026-05-27",
-          "end": "2026-07-11",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
-          "type": "task",
-          "name": "Burr hole surgery",
-          "start": "2026-05-27",
-          "end": "2026-07-11",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "3e8eb76e-3128-4fe8-a177-4a76760ed3ac",
-          "type": "task",
-          "name": "Neural recordings with Arya",
-          "start": "2026-05-27",
-          "end": "2027-02-08",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        }
-      ]
-    },
-    {
-      "id": "29b5f099-bc31-423c-87ff-003ecea6704a",
-      "name": "NPT Program",
-      "collapsed": true,
-      "items": [
-        {
-          "id": "3fd3c62c-46c1-485f-bc05-4af614e6aa4e",
-          "type": "task",
-          "name": "NPT Boot camp",
-          "start": "2026-06-30",
-          "end": "2026-07-02",
-          "color": "#0073ea",
-          "owner": "",
-          "tags": [],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        }
-      ]
-    },
-    {
-      "id": "4fa84213-d91c-4349-b2e8-75149c56efd3",
-      "name": "Opto manuscript",
-      "collapsed": true,
-      "items": [
-        {
-          "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
-          "type": "task",
-          "name": "Submit for prepublication",
-          "start": "2026-05-27",
-          "end": "2026-07-09",
-          "color": "#579bfc",
-          "owner": "PB",
-          "tags": [
-            "Manuscript"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "6f6f438e-21a7-44b5-aff8-2d7882774c3d",
-          "type": "task",
-          "name": "Submit for publication",
-          "start": "2026-05-27",
-          "end": "2026-10-12",
-          "color": "#579bfc",
-          "owner": "PB",
-          "tags": [
-            "Manuscript"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "ba69b9ad-c800-4268-bfd7-f2dee4041033",
-          "type": "task",
-          "name": "Prep SFN abstract",
-          "start": "2026-05-29",
-          "end": "2026-06-10",
-          "color": "#00e1ff",
-          "owner": "PB",
-          "tags": [
-            "Conference"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "00b47cfc-5ecf-4c7e-8fb2-c8dfa2f6ea7b",
-          "type": "milestone",
-          "name": "Submit SFN abstract",
-          "start": "2026-06-10",
-          "end": "2026-06-10",
-          "color": "#00e1ff",
-          "owner": "PB",
-          "tags": [
-            "Conference"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        }
-      ]
-    },
-    {
-      "id": "8164ab47-9864-4e7b-b2fe-d9ce84d03a73",
-      "name": "Liz manuscript",
-      "collapsed": true,
-      "items": [
-        {
-          "id": "35977145-1d45-4254-8b99-1dab828d5292",
-          "type": "task",
-          "name": "PB data analysis",
-          "start": "2026-05-27",
-          "end": "2026-08-28",
-          "color": "#579bfc",
-          "owner": "PB",
-          "tags": [
-            "Manuscript"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "d26c1a78-2b08-455e-a45b-3abbd4381111",
-          "type": "task",
-          "name": "Help Maya analysis",
-          "start": "2026-05-27",
-          "end": "2026-08-29",
-          "color": "#579bfc",
-          "owner": "",
-          "tags": [
-            "Manuscript"
           ],
           "dependsOn": "",
           "comments": "",
@@ -778,7 +829,7 @@
     {
       "id": "587de635-2e94-4f96-a3b1-c32d40015ee3",
       "name": "Spring 2027",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         {
           "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
