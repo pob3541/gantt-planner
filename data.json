@@ -315,7 +315,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 25
+          "progress": 50
         },
         {
           "id": "43400afb-4d10-4212-a739-2d5f32799868",
@@ -348,6 +348,22 @@
           "comments": "",
           "attachments": [],
           "progress": 0
+        },
+        {
+          "id": "e093b60d-2078-46e9-8d7e-d3397d41d579",
+          "type": "task",
+          "name": "Get Arya To do 300-700 trials/day consistently",
+          "start": "2026-07-09",
+          "end": "2026-08-16",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 10
         }
       ]
     },
@@ -694,7 +710,7 @@
     {
       "id": "029e822b-1a34-4758-bd1a-b34279ac8e9e",
       "name": "Fall 2026 semester",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         {
           "id": "e6570984-5dba-459d-9b97-4408123d7275",
@@ -875,7 +891,7 @@
     {
       "id": "587de635-2e94-4f96-a3b1-c32d40015ee3",
       "name": "Spring 2027",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         {
           "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
