@@ -9,7 +9,7 @@
     "manuscript": "#579bfc",
     "dissertation": "#333333",
     "dac": "#333333",
-    "conference": "#00e1ff"
+    "conference": "#784bd1"
   },
   "groups": [
     {
@@ -491,6 +491,22 @@
           "comments": "",
           "attachments": [],
           "progress": 25
+        },
+        {
+          "id": "e21213ba-a3e2-40bc-a1ce-6ea4ec4e12ed",
+          "type": "task",
+          "name": "New task",
+          "start": "2027-07-07",
+          "end": "2027-07-07",
+          "color": "#579bfc",
+          "owner": "PB",
+          "tags": [
+            "Manuscript"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
         }
       ]
     },
@@ -678,7 +694,7 @@
     {
       "id": "029e822b-1a34-4758-bd1a-b34279ac8e9e",
       "name": "Fall 2026 semester",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "id": "e6570984-5dba-459d-9b97-4408123d7275",
@@ -766,7 +782,7 @@
           "name": "Prep cosyne abstract",
           "start": "2026-09-16",
           "end": "2026-10-16",
-          "color": "#00e1ff",
+          "color": "#784bd1",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -782,7 +798,7 @@
           "name": "Cosyne abstract due",
           "start": "2026-10-16",
           "end": "2026-10-16",
-          "color": "#00e1ff",
+          "color": "#784bd1",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -798,7 +814,7 @@
           "name": "Prep NCM abstract",
           "start": "2026-11-01",
           "end": "2026-12-01",
-          "color": "#00e1ff",
+          "color": "#784bd1",
           "owner": "PB",
           "tags": [
             "Conference"
@@ -814,11 +830,41 @@
           "name": "NCM abstract deadline",
           "start": "2026-12-01",
           "end": "2026-12-01",
-          "color": "#00e1ff",
+          "color": "#784bd1",
           "owner": "PB",
           "tags": [
             "Conference"
           ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "0bf81712-eef2-4cfa-92a2-9db214f03634",
+          "type": "task",
+          "name": "Submit Abstract to NIH conference",
+          "start": "2026-08-25",
+          "end": "2026-09-16",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Conference"
+          ],
+          "dependsOn": "",
+          "comments": "https://events.ticketleap.com/tickets/nih-center-on-compulsive-behaviors/2026-molecular-tools-workshop#/",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "016aeba4-21b9-4d89-a31d-9832085dff80",
+          "type": "task",
+          "name": "Sign up for GPN seminar",
+          "start": "2026-09-01",
+          "end": "2026-12-31",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [],
           "dependsOn": "",
           "comments": "",
           "attachments": [],
@@ -829,7 +875,7 @@
     {
       "id": "587de635-2e94-4f96-a3b1-c32d40015ee3",
       "name": "Spring 2027",
-      "collapsed": true,
+      "collapsed": false,
       "items": [
         {
           "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
@@ -867,6 +913,23 @@
           "id": "05ddfa46-b3f4-46fe-9f26-d4fd95bd12e5",
           "type": "milestone",
           "name": "Look into GRC optogenetics conference",
+          "start": "2027-01-20",
+          "end": "2027-01-20",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class",
+            "DAC"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
+          "id": "b9116459-b4bc-469f-a26f-eb8f18e69b41",
+          "type": "milestone",
+          "name": "New milestone",
           "start": "2027-01-20",
           "end": "2027-01-20",
           "color": "#0073ea",
