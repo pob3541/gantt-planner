@@ -96,6 +96,20 @@
           "comments": "",
           "attachments": [],
           "progress": 100
+        },
+        {
+          "id": "f616f607-2972-4fd9-a86b-62051088bcb4",
+          "type": "task",
+          "name": "Take class that fufills the photonics requirement",
+          "start": "2027-01-05",
+          "end": "2027-05-10",
+          "color": "#e2445c",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
         }
       ]
     },
@@ -315,7 +329,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 50
+          "progress": 100
         },
         {
           "id": "43400afb-4d10-4212-a739-2d5f32799868",
@@ -331,7 +345,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
+          "progress": 75
         },
         {
           "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
@@ -347,7 +361,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
+          "progress": 10
         },
         {
           "id": "e093b60d-2078-46e9-8d7e-d3397d41d579",
@@ -363,7 +377,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 10
+          "progress": 90
         }
       ]
     },
@@ -384,7 +398,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 35
+          "progress": 100
         },
         {
           "id": "2cd38080-650c-4a3d-8732-fd921128393f",
@@ -413,6 +427,20 @@
           "comments": "https://www.bu.edu/neurophotonics/ntp/applications/\n\nName, graduate year, program, and any training fellowships you have received\n\nA ≤250 word statement\n\nPlease ask your mentors to prepare one single co-signed letter of recommendation for the fellowship and to email to neuropho@bu.edu .\n\nA copy of your unofficial transcript (uploaded on application form).\n\nA copy of your resume (uploaded on application form).",
           "attachments": [],
           "progress": 0
+        },
+        {
+          "id": "fb78e0fa-6a85-44c8-9e07-2bc5c421db48",
+          "type": "task",
+          "name": "Take a class that fufills phontonics requirement",
+          "start": "2027-01-15",
+          "end": "2027-05-15",
+          "color": "#0073ea",
+          "owner": "",
+          "tags": [],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
         }
       ]
     },
@@ -435,7 +463,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 20
+          "progress": 100
         },
         {
           "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
@@ -451,7 +479,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
+          "progress": 50
         },
         {
           "id": "6f6f438e-21a7-44b5-aff8-2d7882774c3d",
@@ -467,7 +495,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
+          "progress": 50
         }
       ]
     },
@@ -490,7 +518,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 50
+          "progress": 75
         },
         {
           "id": "d26c1a78-2b08-455e-a45b-3abbd4381111",
@@ -506,14 +534,14 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 25
+          "progress": 90
         },
         {
-          "id": "e21213ba-a3e2-40bc-a1ce-6ea4ec4e12ed",
+          "id": "bf508caa-5132-4196-9099-2be0b19530db",
           "type": "task",
-          "name": "New task",
-          "start": "2027-07-07",
-          "end": "2027-07-07",
+          "name": "Wrap up the figure portion of the project",
+          "start": "2026-08-07",
+          "end": "2026-11-09",
           "color": "#579bfc",
           "owner": "PB",
           "tags": [
@@ -715,7 +743,7 @@
         {
           "id": "e6570984-5dba-459d-9b97-4408123d7275",
           "type": "task",
-          "name": "ENG EC 516/ ENG BE 562 (Elective)",
+          "name": "ENG EC 516 (Elective)",
           "start": "2026-09-02",
           "end": "2026-12-18",
           "color": "#0073ea",
@@ -726,23 +754,7 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
-          "progress": 0
-        },
-        {
-          "id": "046cacd6-82a6-47c4-a81b-71a353b2890d",
-          "type": "task",
-          "name": "TA matlab coding",
-          "start": "2026-09-02",
-          "end": "2026-12-18",
-          "color": "#0073ea",
-          "owner": "PB",
-          "tags": [
-            "Class"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
+          "progress": 20
         },
         {
           "id": "d86baea9-0370-4417-87bb-cb1938577068",
@@ -812,8 +824,8 @@
           "id": "5fc58054-e981-4833-b176-823ab561e9ff",
           "type": "milestone",
           "name": "Cosyne abstract due",
-          "start": "2026-10-16",
-          "end": "2026-10-16",
+          "start": "2026-10-18",
+          "end": "2026-10-18",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -860,8 +872,8 @@
           "id": "0bf81712-eef2-4cfa-92a2-9db214f03634",
           "type": "task",
           "name": "Submit Abstract to NIH conference",
-          "start": "2026-08-25",
-          "end": "2026-09-16",
+          "start": "2026-09-18",
+          "end": "2026-10-10",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -894,9 +906,25 @@
       "collapsed": true,
       "items": [
         {
+          "id": "046cacd6-82a6-47c4-a81b-71a353b2890d",
+          "type": "task",
+          "name": "TA matlab coding",
+          "start": "2027-01-20",
+          "end": "2027-05-07",
+          "color": "#0073ea",
+          "owner": "PB",
+          "tags": [
+            "Class"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
+        },
+        {
           "id": "8177adc4-4903-4327-a4ca-41d615208d9d",
           "type": "task",
-          "name": "Elective 2?",
+          "name": "Elective 2? / ENG BE 562?",
           "start": "2027-01-20",
           "end": "2027-05-08",
           "color": "#0073ea",
