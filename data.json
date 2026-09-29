@@ -96,20 +96,6 @@
           "comments": "",
           "attachments": [],
           "progress": 100
-        },
-        {
-          "id": "f616f607-2972-4fd9-a86b-62051088bcb4",
-          "type": "task",
-          "name": "Take class that fufills the photonics requirement",
-          "start": "2027-01-05",
-          "end": "2027-05-10",
-          "color": "#e2445c",
-          "owner": "",
-          "tags": [],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 0
         }
       ]
     },
@@ -332,38 +318,6 @@
           "progress": 100
         },
         {
-          "id": "43400afb-4d10-4212-a739-2d5f32799868",
-          "type": "task",
-          "name": "Train Arya on Checkerboard first",
-          "start": "2026-07-15",
-          "end": "2026-08-08",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 75
-        },
-        {
-          "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
-          "type": "task",
-          "name": "Burr hole surgery",
-          "start": "2026-08-01",
-          "end": "2026-08-16",
-          "color": "#784bd1",
-          "owner": "PB",
-          "tags": [
-            "Experiment"
-          ],
-          "dependsOn": "",
-          "comments": "",
-          "attachments": [],
-          "progress": 10
-        },
-        {
           "id": "e093b60d-2078-46e9-8d7e-d3397d41d579",
           "type": "task",
           "name": "Get Arya To do 300-700 trials/day consistently",
@@ -377,7 +331,62 @@
           "dependsOn": "",
           "comments": "",
           "attachments": [],
+          "progress": 100
+        }
+      ]
+    },
+    {
+      "id": "b2762caa-563b-4032-a316-77aba31ddfe9",
+      "name": "Advanced Arya training",
+      "collapsed": true,
+      "items": [
+        {
+          "id": "43400afb-4d10-4212-a739-2d5f32799868",
+          "type": "task",
+          "name": "Train Arya on Checkerboard first",
+          "start": "2026-08-01",
+          "end": "2026-09-26",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
           "progress": 90
+        },
+        {
+          "id": "c411bd25-15d5-44e3-8a6e-854924824b9e",
+          "type": "task",
+          "name": "Burr hole surgery",
+          "start": "2026-10-10",
+          "end": "2026-10-25",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 20
+        },
+        {
+          "id": "27278283-29af-45f3-ba8c-87cbcad37ee7",
+          "type": "task",
+          "name": "Train Arya on Targets First",
+          "start": "2026-09-30",
+          "end": "2026-11-06",
+          "color": "#784bd1",
+          "owner": "PB",
+          "tags": [
+            "Experiment"
+          ],
+          "dependsOn": "",
+          "comments": "",
+          "attachments": [],
+          "progress": 0
         }
       ]
     },
@@ -404,7 +413,7 @@
           "id": "2cd38080-650c-4a3d-8732-fd921128393f",
           "type": "task",
           "name": "Get a co-mentor who can cowrite rec letter",
-          "start": "2026-06-30",
+          "start": "2026-09-01",
           "end": "2026-11-13",
           "color": "#0073ea",
           "owner": "",
@@ -453,8 +462,8 @@
           "id": "233ce3d7-e7e3-4822-9aec-8ac993d2c0e3",
           "type": "task",
           "name": "Submit to coauthors",
-          "start": "2026-07-01",
-          "end": "2026-07-24",
+          "start": "2026-08-22",
+          "end": "2026-09-14",
           "color": "#579bfc",
           "owner": "PB",
           "tags": [
@@ -469,8 +478,8 @@
           "id": "058718d2-b9cc-44be-a0ab-d4287e9328d7",
           "type": "task",
           "name": "Submit for prepublication",
-          "start": "2026-07-25",
-          "end": "2026-08-20",
+          "start": "2026-09-14",
+          "end": "2026-10-10",
           "color": "#579bfc",
           "owner": "PB",
           "tags": [
@@ -485,8 +494,8 @@
           "id": "6f6f438e-21a7-44b5-aff8-2d7882774c3d",
           "type": "task",
           "name": "Submit for publication",
-          "start": "2026-08-23",
-          "end": "2026-09-18",
+          "start": "2026-09-29",
+          "end": "2026-10-25",
           "color": "#579bfc",
           "owner": "PB",
           "tags": [
@@ -563,8 +572,8 @@
           "id": "3e8eb76e-3128-4fe8-a177-4a76760ed3ac",
           "type": "task",
           "name": "Neural recordings with Arya",
-          "start": "2026-08-12",
-          "end": "2027-01-30",
+          "start": "2026-10-19",
+          "end": "2027-05-15",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
@@ -586,15 +595,15 @@
           "id": "b17ae3fb-78e1-4103-885a-5fe05b658899",
           "type": "task",
           "name": "Prep written quals",
-          "start": "2026-05-27",
-          "end": "2026-07-20",
+          "start": "2026-10-02",
+          "end": "2026-11-25",
           "color": "#e2445c",
           "owner": "PB",
           "tags": [
             "Quals"
           ],
           "dependsOn": "",
-          "comments": "",
+          "comments": "https://www.bu.edu/neuro/academics/graduate/program-milestones/qualifying-exam/",
           "attachments": [],
           "progress": 0
         },
@@ -602,15 +611,15 @@
           "id": "3da31622-e7a1-4d0e-9b1d-d8cb077171f3",
           "type": "task",
           "name": "Form quals committee",
-          "start": "2026-05-27",
-          "end": "2026-06-27",
+          "start": "2026-10-22",
+          "end": "2026-11-22",
           "color": "#e2445c",
           "owner": "PB",
           "tags": [
             "Quals"
           ],
           "dependsOn": "",
-          "comments": "Committee people ideas: Jarrett Rushmore; Mark Howe",
+          "comments": "Committee people ideas: Jarrett Rushmore; Mark Howe; Maya Medalla",
           "attachments": [],
           "progress": 0
         },
@@ -618,8 +627,8 @@
           "id": "8dd0aff3-62ff-4437-b694-34e57538c80c",
           "type": "milestone",
           "name": "Shelly to approve quals committee",
-          "start": "2026-06-27",
-          "end": "2026-06-27",
+          "start": "2026-11-26",
+          "end": "2026-11-26",
           "color": "#e2445c",
           "owner": "PB",
           "tags": [
@@ -634,8 +643,8 @@
           "id": "5aee69bc-7f6a-4426-80e1-1312610dea47",
           "type": "milestone",
           "name": "Send out written exam",
-          "start": "2026-07-17",
-          "end": "2026-07-17",
+          "start": "2026-12-06",
+          "end": "2026-12-06",
           "color": "#e2445c",
           "owner": "PB",
           "tags": [
@@ -650,8 +659,8 @@
           "id": "be5e64ac-63c5-4f19-9a77-a61c151095ac",
           "type": "milestone",
           "name": "Oral qualifying exam",
-          "start": "2026-07-31",
-          "end": "2026-07-31",
+          "start": "2026-12-15",
+          "end": "2026-12-15",
           "color": "#e2445c",
           "owner": "PB",
           "tags": [
@@ -673,8 +682,8 @@
           "id": "8986015a-92ef-40b3-86ef-070ec6127218",
           "type": "task",
           "name": "Continue writing research strategy",
-          "start": "2026-05-27",
-          "end": "2026-08-08",
+          "start": "2026-09-02",
+          "end": "2026-11-26",
           "color": "#fdab3d",
           "owner": "PB",
           "tags": [
@@ -689,8 +698,8 @@
           "id": "34d590e6-9865-4c7b-8e0a-749a73e46b07",
           "type": "task",
           "name": "Other parts of F31",
-          "start": "2026-06-26",
-          "end": "2026-07-15",
+          "start": "2026-11-07",
+          "end": "2026-11-26",
           "color": "#fdab3d",
           "owner": "PB",
           "tags": [
@@ -705,8 +714,8 @@
           "id": "38942c74-4630-46dd-b61d-0a9c7c1ed4c5",
           "type": "task",
           "name": "Internal submission of NRSA",
-          "start": "2026-07-24",
-          "end": "2026-08-01",
+          "start": "2026-11-24",
+          "end": "2026-11-24",
           "color": "#fdab3d",
           "owner": "PB",
           "tags": [
@@ -721,8 +730,8 @@
           "id": "ed16e880-ee96-4ef1-b848-a96d948d8317",
           "type": "task",
           "name": "Submit NRSA application",
-          "start": "2026-08-01",
-          "end": "2026-08-10",
+          "start": "2026-12-01",
+          "end": "2026-12-08",
           "color": "#fdab3d",
           "owner": "PB",
           "tags": [
@@ -872,8 +881,8 @@
           "id": "0bf81712-eef2-4cfa-92a2-9db214f03634",
           "type": "task",
           "name": "Submit Abstract to NIH conference",
-          "start": "2026-09-18",
-          "end": "2026-10-10",
+          "start": "2026-10-01",
+          "end": "2026-11-01",
           "color": "#784bd1",
           "owner": "PB",
           "tags": [
